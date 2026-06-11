@@ -21,7 +21,7 @@ create_tables()
 
 @app.get("/")
 def root():
-    return {"message": "Job Tracker API"}
+    return {"message": "Job Tracker API v2 - auto deployed"}
 
 @app.post("/jobs")
 def create_job(job: JobCreate):
